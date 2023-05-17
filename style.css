@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+}
+#wrapper{
+    width: 100%;
+}
+#wrapper header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://cdn.hipwallpaper.com/i/98/65/zOMypT.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wrapper header #header-top{
+    position: absolute;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: rgb(94, 223, 228);
+    padding: 3px 3px;
+}
+#wrapper header #header-top #navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wrapper header #header-top #navigation a{
+    color: black;
+    font-size: 25px;
+    padding: 0 10px;
+    font-family: sans-serif;
+}
+#wrapper header #header-top a:hover{
+    background:rgb(201, 207, 207);
+}
+#wrapper header #header-top a.active {
+    background-color:white;
+    color: black;
+  } 
+#wrapper header #main-header{
+    text-align: center;
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-right-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+#wrapper header #main-header h1{
+    color: black;
+    font-size: 65px;
+}
+#wrapper header #main-header p{
+    color: black;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#wrapper main section.history{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(94, 223, 228);
+}
+#wrapper main section.history h2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 10px;
+    font-size: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wrapper main section.history p{
+    color: black;
+    padding: 80px;
+    font-size: 24px;
+}
+#wrapper main section.famous{
+    position: absolute;
+    width: 1583px;
+    height: 700px;
+    margin-top: 404px;
+    background: url('http://www.baltana.com/files/wallpapers-3/Robot-HD-Wallpapers-09672.jpg');
+    background-size: cover;
+}
+#wrapper main section.famous h2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1583px;
+}
+#wrapper main section.famous p{
+    width: 1583px;
+height: 0px;
+margin-top: 88px;
+margin-right: -41px;
+font-size: 24px;
+text-align: center;
+}
+#wrapper main section.famous ul{
+    color:black;
+    font-size: 24px;
+    width: 400px;
+    height: 250px;
+    padding-right: 55px;
+    padding-left: 190px;
+padding-top: 30px;
+padding-left: 480px;
+}
+#gallery{
+    display: flex;
+    justify-content:center;
+    margin: 0px;
+    top: 300px;
+    color: black;
+    font-size: 22px;
+    left: 0px;
+    height: 250px;
+}
+#gallery .items{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(94, 223, 228);
+    background-color: rgb(94, 223, 228);
+    color: #000;
+    margin: 5px;
+   width: 180px;
+}
+#wrapper main section.facts{
+    padding-top: 1183px;
+    background-color: rgb(94, 223, 228);
+    height: 300px;
+}
+#wrapper main section.facts h2{
+    font-size: 33px;
+    text-align: center;
+    margin-top: -44.617px;
+}
+#wrapper main section.facts ul{
+    font-size: 24px;
+}
+#wrapper main section.registration{
+    background: url('https://i.pinimg.com/originals/65/53/8f/65538fc351092a3dc3e0f37a135af2b4.jpg');
+    background-size: cover;
+    height: 500px;
+    text-align: end;
+    padding-right: 75px;
+}
+
+
+.form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+    background: #F7F7F7;
+    margin-left: 1054px;
+}
+.form-style-6 h1{
+	background: rgb(94, 223, 228);
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select
+{
+	
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px rgb(94, 223, 228);
+	padding: 3%;
+	border: 1px solid rgb(94, 223, 228);
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: rgb(94, 223, 228);
+	border-bottom: 2px solid rgb(94, 223, 228);
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: rgb(94, 223, 228);
+}
+#wrapper footer{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        background-color: rgba(94, 224, 228, 0.589);
+}
+
+
